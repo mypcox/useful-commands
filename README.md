@@ -1,6 +1,6 @@
 # Useful Commands
 
-### Section 1
+### Some Run Commands
 ```cmd
 %appdata%
 %localappdata%
@@ -13,7 +13,7 @@ net localgroup administrators
 
 ---
 
-### Section 1✪➤
+### ✪Section 1 ✪➤
 ```cmd
 %AppData%\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar
 %AppData%\Microsoft\Internet Explorer\Quick Launch\User Pinned\ImplicitAppShortcuts
@@ -25,7 +25,7 @@ C:\Program Files\BraveSoftware\Brave-Browser\Application
 
 ---
 
-### Section 2✪➤
+### ✪Section 2 ✪➤
 ```cmd
 %AppData%\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar
 %AppData%\Microsoft\Internet Explorer\Quick Launch\User Pinned\ImplicitAppShortcuts
@@ -34,11 +34,25 @@ C:\Program Files\BraveSoftware\Brave-Browser\Application
 
 ---
 
-### ✪➤YOUR BROTHER'S LAPTOP✪➤
+### ✪YOUR BROTHER'S LAPTOP ✪➤
 ```cmd
 %AppData%\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar
 %AppData%\Microsoft\Internet Explorer\Quick Launch\User Pinned\ImplicitAppShortcuts
 %LocalAppData%\Microsoft\Windows\Explorer
 C:\Program Files\Google\Chrome\Application
 C:\Program Files\BraveSoftware\Brave-Browser\Application
+```
+
+---
+
+### Default PFP ⇨
+```cmd
+C:\ProgramData\Microsoft\User Account Pictures
+```
+
+---
+
+### Previous PFP ⇨
+```cmd
+%appdata%\Microsoft\Windows\AccountPictures
 ```
