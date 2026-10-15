@@ -68,8 +68,11 @@ attrib +r +s "%USERPROFILE%\Videos"
 attrib +r +s "%USERPROFILE%\Favorites"
 attrib +r +s "%USERPROFILE%\Links"
 attrib +r +s "%USERPROFILE%\Searches"
+```
 
 ---
 
+### Then ⇨
+```cmd
 ie4uinit.exe -show & taskkill /f /im explorer.exe & del /f /q "%localappdata%\IconCache.db" & del /f /q "%localappdata%\Microsoft\Windows\Explorer\iconcache*" & start explorer.exe
 ```
