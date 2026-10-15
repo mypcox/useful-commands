@@ -56,3 +56,20 @@ C:\ProgramData\Microsoft\User Account Pictures
 ```cmd
 %appdata%\Microsoft\Windows\AccountPictures
 ```
+
+---
+
+### File explorer default icons ⇨
+```cmd
+attrib +r +s "%USERPROFILE%\Documents"
+attrib +r +s "%USERPROFILE%\Pictures"
+attrib +r +s "%USERPROFILE%\Music"
+attrib +r +s "%USERPROFILE%\Videos"
+attrib +r +s "%USERPROFILE%\Favorites"
+attrib +r +s "%USERPROFILE%\Links"
+attrib +r +s "%USERPROFILE%\Searches"
+
+---
+
+ie4uinit.exe -show & taskkill /f /im explorer.exe & del /f /q "%localappdata%\IconCache.db" & del /f /q "%localappdata%\Microsoft\Windows\Explorer\iconcache*" & start explorer.exe
+```
