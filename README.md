@@ -1,4 +1,4 @@
-# Useful Windows & Taskbar Shortcuts
+# Useful Commands
 
 ### Section 1
 ```cmd
