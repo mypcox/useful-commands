@@ -1,6 +1,6 @@
 # Useful Commands
 
-# Individual Code Blocks
+# Important files locations
 
 ### Command 1
 ```cmd
@@ -39,7 +39,7 @@ net localgroup administrators
 
 ---
 
-## Section 1✪➤
+## Browser name fix ✪➤
 
 ```cmd
 %AppData%\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar
@@ -65,25 +65,20 @@ C:\Program Files\Google\Chrome\Application
 C:\Program Files\BraveSoftware\Brave-Browser\Application
 ```
 
----
-
-
 ### Default PFP ⇨
 ```cmd
 C:\ProgramData\Microsoft\User Account Pictures
 ```
-
----
 
 ### Previous PFP ⇨
 ```cmd
 %appdata%\Microsoft\Windows\AccountPictures
 ```
 
----
-
 ### File explorer default icons ⇨
 ```cmd
+attrib +r +s "%USERPROFILE%\Desktop"
+attrib +r +s "%USERPROFILE%\Downloads"
 attrib +r +s "%USERPROFILE%\Documents"
 attrib +r +s "%USERPROFILE%\Pictures"
 attrib +r +s "%USERPROFILE%\Music"
@@ -92,8 +87,6 @@ attrib +r +s "%USERPROFILE%\Favorites"
 attrib +r +s "%USERPROFILE%\Links"
 attrib +r +s "%USERPROFILE%\Searches"
 ```
-
----
 
 ### Then ⇨
 ```cmd
