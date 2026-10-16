@@ -1,49 +1,72 @@
 # Useful Commands
 
-### Some Run Commands
+# Individual Code Blocks
+
+### Command 1
 ```cmd
 %appdata%
+```
+
+### Command 2
+```cmd
 %localappdata%
+```
+
+### Command 3
+```cmd
 %programfiles%
+```
+
+### Command 4
+```cmd
 %programfiles(x86)%
+```
+
+### Command 5
+```cmd
 %USERPROFILE%
+```
+
+### Command 6
+```cmd
 net user
+```
+
+### Command 7
+```cmd
 net localgroup administrators
 ```
 
 ---
 
-### ✪Section 1 ✪➤
+## Section 1✪➤
+
 ```cmd
 %AppData%\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar
+```
+
+```cmd
 %AppData%\Microsoft\Internet Explorer\Quick Launch\User Pinned\ImplicitAppShortcuts
+```
+
+```cmd
 %LocalAppData%\Microsoft\Windows\Explorer
+```
+
+```cmd
 %LocalAppData%\Google\Chrome\User Data
+```
+
+```cmd
 C:\Program Files\Google\Chrome\Application
+```
+
+```cmd
 C:\Program Files\BraveSoftware\Brave-Browser\Application
 ```
 
 ---
 
-### ✪Section 2 ✪➤
-```cmd
-%AppData%\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar
-%AppData%\Microsoft\Internet Explorer\Quick Launch\User Pinned\ImplicitAppShortcuts
-%LocalAppData%\Microsoft\Windows\Explorer
-```
-
----
-
-### ✪YOUR BROTHER'S LAPTOP ✪➤
-```cmd
-%AppData%\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar
-%AppData%\Microsoft\Internet Explorer\Quick Launch\User Pinned\ImplicitAppShortcuts
-%LocalAppData%\Microsoft\Windows\Explorer
-C:\Program Files\Google\Chrome\Application
-C:\Program Files\BraveSoftware\Brave-Browser\Application
-```
-
----
 
 ### Default PFP ⇨
 ```cmd
