@@ -92,8 +92,3 @@ attrib +r +s "%USERPROFILE%\Searches"
 ```cmd
 ie4uinit.exe -show & taskkill /f /im explorer.exe & del /f /q "%localappdata%\IconCache.db" & del /f /q "%localappdata%\Microsoft\Windows\Explorer\iconcache*" & start explorer.exe
 ```
-
-### IP Add
-```powershell
-192.168.0.1
-```
